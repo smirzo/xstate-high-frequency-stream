@@ -14,6 +14,6 @@ const machine = Machine({
   },
 });
 
-const service = interpret(machine)
+interpret(machine)
   .onTransition(() => {})
   .start();
