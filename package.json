@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "example": "npx memory-usage index.js"
+    "timer:xstate": "npx memory-usage examples/timer/xstate",
+    "timer:control": "npx memory-usage examples/timer/control",
+    "bitmex:xstate": "npx memory-usage examples/bitmex/xstate",
+    "bitmex:control": "npx memory-usage examples/bitmex/control"
   },
   "repository": {
     "type": "git",
@@ -19,6 +22,7 @@
   },
   "homepage": "https://github.com/smirzo/xstate-high-frequency-stream#readme",
   "dependencies": {
+    "bitmex-realtime-api": "^0.4.3",
     "rxjs": "^6.5.4",
     "xstate": "^4.7.8"
   },
