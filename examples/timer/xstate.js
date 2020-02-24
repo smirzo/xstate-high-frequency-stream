@@ -8,7 +8,7 @@ const machine = Machine({
     timer: {
       invoke: {
         id: 'timer',
-        src: () => timer(0, 10).pipe(map(() => ({ type: 'TIME_CHANGE' }))),
+        src: () => timer(0, 100).pipe(map(() => ({ type: 'TIME_CHANGE' }))),
       },
     },
   },
