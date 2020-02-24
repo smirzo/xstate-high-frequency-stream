@@ -1,0 +1,28 @@
+{
+  "name": "@smirzo/xstate-high-frequency-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example": "npx memory-usage index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smirzo/xstate-high-frequency-stream.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smirzo/xstate-high-frequency-stream/issues"
+  },
+  "homepage": "https://github.com/smirzo/xstate-high-frequency-stream#readme",
+  "dependencies": {
+    "rxjs": "^6.5.4",
+    "xstate": "^4.7.8"
+  },
+  "devDependencies": {
+    "memory-usage": "^1.2.1"
+  }
+}
