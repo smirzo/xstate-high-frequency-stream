@@ -1,5 +1,5 @@
 const BitMEXClient = require('bitmex-realtime-api');
-const { interpret, Machine } = require('xstate');
+const { interpret, Machine } = require('../../xstate-fixed');
 
 const client = new BitMEXClient({ testnet: false });
 

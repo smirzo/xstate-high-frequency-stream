@@ -1,6 +1,6 @@
 const { timer } = require('rxjs');
 const { map } = require('rxjs/operators');
-const { interpret, Machine } = require('xstate');
+const { interpret, Machine } = require('../../xstate-fixed');
 
 const machine = Machine({
   initial: 'timer',
