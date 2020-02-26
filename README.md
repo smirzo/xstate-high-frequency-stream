@@ -16,4 +16,4 @@ This repo tests `xstate` memory usage on contrived examples of high frequency st
 
 # Graphs
 
-Snapshots of the memory usage for each example.
+Snapshots of the memory usage for each example (average run time of 30-60 mins).
