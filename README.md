@@ -1,5 +1,7 @@
 # Examples
 
+This repo tests `xstate` memory usage on contrived examples of high frequency streams.
+
 ### Timer
 
 `npm run timer:xstate`
